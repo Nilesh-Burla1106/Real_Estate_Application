@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+/* Add this to your CSS file or inline */
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Custom animation colors */
+.animate__rubberBand {
+  --animate-duration: 1.5s;
+}
+
+button {
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #28a745 !important;  /* Change to green on hover */
+}
+
+button:active {
+  background-color: #17a2b8 !important;  /* Change to blue when active */
+}
+
+.animate__bounce {
+  --animate-duration: 1s;
+}
+
+
